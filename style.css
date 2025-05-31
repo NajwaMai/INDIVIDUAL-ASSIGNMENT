@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5; /* light pink */
+  color: #4b004f; /* deep plum text */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffb6c1; /* pastel pink */
+  color: #4b004f;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #d46a92;
+}
+
+nav a {
+  color: #4b004f;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffe4e1;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: #fcd2d8;
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  background-color: #fffafa;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 0 10px #ffc0cb;
+}
+
+h1, h2 {
+  color: #800080;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.career-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border: 5px dotted #d46a92;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffeef2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #d46a92;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffb6c1;
+  color: #4b004f;
+}
+
+td a {
+  color: #800080;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #ffb6c1;
+  color: #4b004f;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 3px solid #d46a92;
+}
